@@ -38,12 +38,15 @@ main{
     align-items: center;
     
 }
+.top{
+    width: 50%;
+}
 
-.bottom{
+/* .bottom{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .cat{
     height: 200px;
