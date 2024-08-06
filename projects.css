@@ -41,3 +41,16 @@ main{
     justify-content: space-evenly;
     
 }
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    /* margin-left: 50px; */
+    position: relative;
+    left: 30px;
+}

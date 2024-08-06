@@ -49,13 +49,14 @@ main{
 
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
 }
 
 .bottom{
     width: 50%;
+
 }
 #profile{
     border-radius: 50%;
