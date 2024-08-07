@@ -41,6 +41,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    overflow: scroll;
     
 }
 
@@ -56,3 +57,43 @@ main{
     border-radius: 15px;
     box-shadow: 3px 3px 3px white;
 }
+
+
+ 
+ @media only screen and (max-width: 650px) {
+     
+     header{
+         background-color: black;
+         padding-top: 1%;
+         padding-left: 5%;
+         padding-bottom: 1%;
+         color: white;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+     }
+      
+    }
+ 
+ @media only screen and (max-width: 550px) {
+     
+     header{
+         background-color: black;
+         padding-top: 1%;
+         padding-left: 5%;
+         padding-bottom: 1%;
+         color: white;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+     }
+     main{
+        height: max-content;
+     }
+     h1, p{
+        margin-bottom: 10px;
+     }
+     
+ }
