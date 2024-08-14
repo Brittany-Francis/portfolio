@@ -65,17 +65,23 @@ main{
  @media only screen and (max-width: 650px) {
      .top{width: 90%;}
      header{
+        width: 100%;
          background-color: black;
          padding-top: 1%;
          padding-left: 5%;
          padding-bottom: 1%;
          color: white;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: space-between;
+         display: inline-block;
      }
-      
+    .imgs, .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    a{
+        margin: 10px;
+    }
     }
  
  @media only screen and (max-width: 550px) {
@@ -86,10 +92,7 @@ main{
          padding-left: 5%;
          padding-bottom: 1%;
          color: white;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: space-between;
+         
      }
      
  }
