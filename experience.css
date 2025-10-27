@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.4;
 }
 .container{
     margin: 0 auto  ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Montserrat;
     color: white;
     /* text-shadow: 1px 1px 10px black; */
 }
@@ -53,7 +54,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     border: 1px solid white;
-    padding: 20px;
+    padding: 20px 50px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px white;
 }
@@ -71,6 +72,7 @@ main{
          color: white;
          display: inline-block;
      }
+     h1{margin-bottom: 20px;}
      .imgs, .links{
         display: flex;
         justify-content: center;
